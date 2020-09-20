@@ -1,0 +1,36 @@
+<!-- 어떤 기능만 하는 영역일때 section 태그를 사용하면 가독성 증가!! -->
+<section>
+  <h1>What's happening</h1>
+  
+  <form action="#" method="POST">
+    <img src="@" alt="@옥진경">
+    <textarea placeholder=" What's happening?" maxlength="280"></textarea>
+    
+    <!-- input은 스타일 적용이 안되기 때문에 버튼을 눌르면 input이 작동되게 js 적용해야한다. -->
+
+    <button type="button" aria-label="Upload files">
+      <!-- Icon -->
+    </button>
+    <input type="file" multiple accept="image/*, video/*"></input>
+    <!-- multiple 여러 형식 파일을 허용할때, image/* (image 파일은 모두 허용한다)-->
+    <button type="button" aria-label="Search GIFs...">
+      <!-- Icon -->
+    </button>
+    <button type="button" aria-label="Create a poll">
+      <!-- Icon -->
+    </button>
+    <button type="button" aria-label="Choose emoji">
+      <!-- Icon -->
+    </button>
+    <strong aria-label="0 out of 280 characters">
+      <!-- 글 쓸는 거에 따라 0 1 2 3..채워지게 js 처리 -->
+    </strong>
+    <button type="button" aria-label="Add another Tweet">
+      <!-- Icon -->
+    </button>
+    <button type="submit">
+      Tweet
+    </button>
+
+  </form>
+</section>
