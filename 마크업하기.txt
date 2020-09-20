@@ -1,0 +1,16 @@
+<구조적인 문서 설계>
+글의 구조를 쉽게 파악되게 html을 작성한다
+목차 -> 책의 개요
+단원의 수
+단원의 제목
+소단원의 주제 및 제목
+
+<올바른 Sectioning Elements 사용 방법>
+Sectioning Elements: section article nav aside
+단원의 주제, 제목이 필요하므로
+Sectioning Elements를 사용할때 반드시 heading 태그(h1,h2,h3,h4,h5,h6)를 작성해야한다.
+
+<마크업>
+1. 구획 나누기!! 논리적으로 긴밀하게 관련되 집합으로 나눈다.
+2. 적절한 Sectioning Elements 정해주기
+3. 최소한의 의미/기능을 갖는 가장작은 단위로 쪼갠다.
